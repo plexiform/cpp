@@ -32,6 +32,6 @@ int main() {
     cents = sum % 100;
     dollars = (sum - cents) / 100;
     
-    cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<endl;
+    cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents"<<endl;
     return 0;
 }
