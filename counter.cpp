@@ -7,29 +7,30 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main() {
     int quarters, dimes, nickles, pennies;
     int sum, dollars, cents;
     
-    std::cout<<"Please enter the number of coins."<<std::endl;
+    cout<<"Please enter the number of coins."<<endl;
     
-    std::cout<<"# of quarters: ";
-    std::cin>>quarters;
+    cout<<"# of quarters: ";
+    cin>>quarters;
     
-    std::cout<<"# of dimes: ";
-    std::cin>>dimes;
+    cout<<"# of dimes: ";
+    cin>>dimes;
     
-    std::cout<<"# of nickles: ";
-    std::cin>>nickles;
+    cout<<"# of nickles: ";
+    cin>>nickles;
     
-    std::cout<<"# of pennies: ";
-    std::cin>>pennies;
+    cout<<"# of pennies: ";
+    cin>>pennies;
     
     sum = (25 * quarters) + (10 * dimes) + (5 * nickles)+ (1 * pennies);
     
     cents = sum % 100;
     dollars = (sum - cents) / 100;
-    std::cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<std::endl;
+    cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<endl;
     return 0;
 }
