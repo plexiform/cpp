@@ -15,22 +15,23 @@ int main() {
     
     cout<<"Please enter the number of coins."<<endl;
     
-    cout<<"# of quarters: ";
+    cout<<"# of quarters:";
     cin>>quarters;
     
-    cout<<"# of dimes: ";
+    cout<<"# of dimes:";
     cin>>dimes;
     
-    cout<<"# of nickles: ";
+    cout<<"# of nickles:";
     cin>>nickles;
     
-    cout<<"# of pennies: ";
+    cout<<"# of pennies:";
     cin>>pennies;
     
     sum = (25 * quarters) + (10 * dimes) + (5 * nickles)+ (1 * pennies);
     
     cents = sum % 100;
     dollars = (sum - cents) / 100;
+    
     cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<endl;
     return 0;
 }
