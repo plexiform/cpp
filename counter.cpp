@@ -13,7 +13,7 @@ int main() {
     int quarters, dimes, nickles, pennies;
     int sum, dollars, cents;
     
-    cout<<"Please enter the number of coins."<<endl;
+    cout<<"Please enter the number of coins:"<<endl;
     
     cout<<"# of quarters: ";
     cin>>quarters;
@@ -31,6 +31,7 @@ int main() {
     
     cents = sum % 100;
     dollars = (sum - cents) / 100;
+    
     cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<endl;
     return 0;
 }
