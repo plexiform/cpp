@@ -15,16 +15,16 @@ int main() {
     
     cout<<"Please enter the number of coins."<<endl;
     
-    cout<<"# of quarters: "<<endl;
+    cout<<"# of quarters: ";
     cin>>quarters;
     
-    cout<<"# of dimes: "<<endl;
+    cout<<"# of dimes: ";
     cin>>dimes;
     
-    cout<<"# of nickles: "<<endl;
+    cout<<"# of nickles: ";
     cin>>nickles;
     
-    cout<<"# of pennies: "<<endl;
+    cout<<"# of pennies: ";
     cin>>pennies;
     
     sum = (25 * quarters) + (10 * dimes) + (5 * nickles)+ (1 * pennies);
