@@ -21,7 +21,7 @@ int main() {
     cout<<"# of dimes: ";
     cin>>dimes;
     
-    cout<<"# of nickles: ";
+    cout<<"# of nickels: ";
     cin>>nickles;
     
     cout<<"# of pennies: ";
