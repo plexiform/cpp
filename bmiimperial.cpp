@@ -11,9 +11,9 @@
 int main() {
     float weightLbs, heightInches, weightImp, heightImp, bmi, roundedBMI;
     
-    std::cout<<"Please  enter weight  in  pounds: ";
+    std::cout<<"Please enter weight in pounds: ";
     std::cin>>weightLbs;
-    std::cout<<"Please  enter height  in  inches: ";
+    std::cout<<"Please enter height in inches: ";
     std::cin>>heightInches;
     
     weightImp = weightLbs * 0.453592;
