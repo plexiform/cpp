@@ -20,7 +20,7 @@ int main() {
     heightImp = heightInches * 0.0254;
     
     bmi = weightImp/(heightImp * heightImp);
-    roundedBMI = ceil(bmi*100)/100;
-    std::cout<<"BMI is: "<<roundedBMI;
+    roundedBMI = ceil(bmi*100);
+    std::cout<<"BMI is: "<<roundedBMI/100;
     return 0;
 }
