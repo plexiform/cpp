@@ -22,5 +22,5 @@ int main(int argc, char *argv[]) {
     else {
         std::cout<<year<<" was a leap year";
     }
-    return 0;
+    return 100;
 }
