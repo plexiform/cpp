@@ -10,7 +10,14 @@
 
 int main(int argc, char *argv[]) {
     int year;
-    year = atoi(argv[2]);
+    
+    if (argc == 3) {
+        year = atoi(argv[2]);
+    }
+    else if (argc == 2) {
+        year = atoi(argv[1]);
+    }
+
     if (year % 4 != 0) {
         std::cout<<year<<" was not a leap year";
     }
@@ -23,5 +30,6 @@ int main(int argc, char *argv[]) {
     else {
         std::cout<<year<<" was a leap year";
     }
+    
     return 0;
 }
