@@ -5,6 +5,7 @@
 //  Created by Haaris Siddiqui on 4/13/21.
 //
 
+#include <stdio.h>
 #include <iostream>
 
 int main(int argc, char *argv[]) {
@@ -22,5 +23,5 @@ int main(int argc, char *argv[]) {
     else {
         std::cout<<year<<" was a leap year";
     }
-    return 100;
+    return 0;
 }
